@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">BiometricAuth Sample</string>
+    <string name="title_biometric_sample">BiometricAuth Sample App</string>
+    <string name="description_sample_app">This sample app demonstrates how to use the BiometricAuth library to implement secure biometric authentication in your applications.</string>
+
+    <string name="status_title">Biometric Status</string>
+    <string name="status_checking">Checking biometric capabilities…</string>
+    <string name="status_available">Available</string>
+    <string name="status_not_available">Not Available</string>
+    <string name="status_not_enrolled">Not Enrolled</string>
+    <string name="status_temporary_unavailable">Temporarily Unavailable</string>
+    <string name="status_error">Error</string>
+
+    <string name="button_simple_auth">Simple Authentication</string>
+    <string name="button_encrypt">Encrypt Data</string>
+    <string name="button_decrypt">Decrypt Data</string>
+
+    <string name="info_text">To use biometric authentication, your device must have biometrics enrolled in system settings.</string>
+    <string name="footer_text">BiometricAuth Library Demo</string>
+
+    <string name="auth_success">Authentication Successful</string>
+    <string name="auth_failed">Authentication Failed</string>
+    <string name="auth_error">Authentication Error: %1$s</string>
+
+    <string name="encrypt_success">Data encrypted successfully!</string>
+    <string name="decrypt_success">Data decrypted successfully!</string>
+    <string name="encrypt_failed">Encryption failed: %1$s</string>
+    <string name="decrypt_failed">Decryption failed: %1$s</string>
+
+    <string name="biometric_prompt_title">Verify Your Identity</string>
+    <string name="biometric_prompt_subtitle">Authentication required</string>
+    <string name="biometric_prompt_description">Use your biometric credential to verify your identity</string>
+    <string name="biometric_prompt_negative">Cancel</string>
+
+    <string name="encrypt_prompt_title">Encrypt Sensitive Data</string>
+    <string name="encrypt_prompt_subtitle">Authentication required</string>
+    <string name="encrypt_prompt_description">Use your biometric credential to encrypt data</string>
+
+    <string name="decrypt_prompt_title">Decrypt Sensitive Data</string>
+    <string name="decrypt_prompt_subtitle">Authentication required</string>
+    <string name="decrypt_prompt_description">Use your biometric credential to decrypt data</string>
+
+    <string name="dialog_title_success">Success</string>
+    <string name="dialog_title_error">Error</string>
+    <string name="dialog_button_ok">OK</string>
+</resources>
