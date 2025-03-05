@@ -63,6 +63,8 @@ biometricAuth.authenticate(
 ### Encryption with Biometric Authentication
 
 ```kotlin
+val sensitiveData = "Your sensitive data"
+
 biometricAuth.authenticateWithCrypto(
     activity = this,
     cryptoOperation = CryptoOperation.ENCRYPT,
